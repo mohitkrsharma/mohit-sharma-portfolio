@@ -1,5 +1,10 @@
 body{
     font-family: 'Montserrat', sans-serif;
+    background-color: #F8F8FF;
+}
+
+.list-group li {
+    background-color: #F8F8FF;
 }
 .ms-logo{
     height: 50px;
@@ -46,11 +51,11 @@ body{
 }
 
 .about-me-div{
-    background-color: #6E07F3; !important;
+    background-color: #FFF8DC; !important;
     padding: 80px 160px;
 }
 
-.about-me-p,.my-projects{
+.my-projects{
     color: #ffffff !important;
     font-weight: 700 !important;
 }
@@ -58,6 +63,7 @@ body{
 .about-me-p,.skills-p,.my-projects{
     font-weight: 600;
     line-height: 2.25;
+    font-family: "Josefin Sans",sans-serif;
 }
 
 .list-group-item {
