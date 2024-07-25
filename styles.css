@@ -1,0 +1,97 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.ms-logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.bg-body-tertiary{
+    background-color: #ffffff !important;
+}
+
+.sharma{
+    /* color: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%); */
+    color: #3340FF;
+}
+
+.portfolio-nav{
+    gap: 40%;
+}
+
+.name-anchor{
+    font-weight: 600 !important;
+}
+
+.soft-dev-container{
+    margin-top: 10%;
+}
+
+.soft-dev{
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: #000;
+    line-height: 0.95; !important;
+    animation-duration: 5s;
+}
+
+#footer-container{
+    display: none !important;
+}
+
+.about-me-div{
+    margin-top: 25%;
+}
+
+.about-me-div{
+    background-color: #6E07F3; !important;
+    padding: 80px 160px;
+}
+
+.about-me-p,.my-projects{
+    color: #ffffff !important;
+    font-weight: 700 !important;
+}
+
+.about-me-p,.skills-p,.my-projects{
+    font-weight: 600;
+    line-height: 2.25;
+}
+
+.list-group-item {
+    border: none !important;
+}
+
+.flex-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+
+.skills-div{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.skills-p{
+    font-weight: 600;
+}
+
+@media screen and (max-width: 930px) {
+    .about-me-div{
+        padding: 80px 80px;
+    }
+}
+
+.fix-img-logo{
+    height: 5%;
+    width: auto;
+}
+
+.proj-desc{
+    text-align: left;
+    font-weight: 700;
+}
