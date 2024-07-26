@@ -1,5 +1,5 @@
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     background-color: #F8F8FF;
 }
 
@@ -17,7 +17,6 @@ body{
 }
 
 .sharma{
-    /* color: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%); */
     color: #3340FF;
 }
 
@@ -31,15 +30,96 @@ body{
 
 .soft-dev-container{
     margin-top: 10%;
+    a{
+        color: #000;
+        text-decoration: none;
+    }
 }
 
 .soft-dev{
-    font-family: "proxima-nova", sans-serif;
+    font-family: "Josefin Sans", sans-serif !important;
     font-weight: 800;
     margin-bottom: 20px;
     color: #000;
-    line-height: 0.95; !important;
+    line-height: 0.95 !important;
     animation-duration: 5s;
+}
+
+.div-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media-logos{
+    font-size: 5em;
+}
+
+.social-media-logos-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a{
+        color: #000000;
+    }
+}
+
+.fa-facebook:hover{
+    color: #0866ff !important;
+}
+.fa-envelope-circle-check:hover{
+    background: 
+      linear-gradient(to bottom left, transparent 49%,#ea4335 50%) 105% 0%  /37% 30%,
+      linear-gradient(to bottom right,transparent 49%,#fbbc05 50%) 64% 100% /35% 43%,
+     
+      radial-gradient(farthest-side, #4285f4 46%,transparent 47%),
+      linear-gradient( 47deg,        #34a853 42%,transparent 43%),
+      linear-gradient(-72deg,        #fbbc05 42%,transparent 43%),
+      linear-gradient(-199deg,       #ea4335 42%,transparent 43%);
+  background-repeat:no-repeat;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.fa-instagram:hover{
+  background: 
+  linear-gradient(to bottom left, transparent 49%,#ea4335 50%) 105% 0%  /37% 30%,
+  linear-gradient(to bottom right,transparent 49%,#e24118 50%) 64% 100% /35% 43%,
+ 
+  radial-gradient(farthest-side, #e93e13 46%,transparent 47%),
+  linear-gradient( 47deg,        #ec3e13 42%,transparent 43%),
+  linear-gradient(-72deg,        #f05619 42%,transparent 43%),
+  linear-gradient(-199deg,       #ea4335 42%,transparent 43%);
+background-repeat:no-repeat;
+color: transparent;
+-webkit-background-clip: text;
+background-clip: text;
+}
+.fa-github:hover{
+    background: 
+      linear-gradient(to bottom left, transparent 49%,#310bdd 50%) 105% 0%  /37% 30%,
+      linear-gradient(to bottom right,transparent 49%,#0c2cb9 50%) 64% 100% /35% 43%,
+     
+      radial-gradient(farthest-side, #4285f4 46%,transparent 47%),
+      linear-gradient( 47deg,        #0b1999 42%,transparent 43%),
+      linear-gradient(-72deg,        #4005ca 42%,transparent 43%),
+      linear-gradient(-199deg,       #2c07b1 42%,transparent 43%);
+  background-repeat:no-repeat;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.social-media-container{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+@media screen and (max-width: 577px) {
+    .social-media-logos-col{
+        margin-bottom: 3em;
+    }
 }
 
 #footer-container{
@@ -51,13 +131,12 @@ body{
 }
 
 .about-me-div{
-    background-color: #FFF8DC; !important;
+    background-color: #FFF8DC !important;
     padding: 80px 160px;
 }
 
 .my-projects{
     color: #ffffff !important;
-    font-weight: 700 !important;
 }
 
 .about-me-p,.skills-p,.my-projects{
@@ -66,9 +145,36 @@ body{
     font-family: "Josefin Sans",sans-serif;
 }
 
+.about-me-p{
+    transform: translateY(50px);
+    transition: opacity 0.5s ease, transform 0.5s ease; 
+}
+
+.proj-1,.proj-2,.proj-3,.proj-4,.proj-desc{
+    font-family: "Josefin Sans",sans-serif;
+}
+.top-header{
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 99999;
+    position: fixed;
+    top: 0;
+}
+
 .list-group-item {
     border: none !important;
+
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.5s ease, transform 0.5s ease; 
 }
+
+.list-group-item.animate {
+    opacity: 1;
+    transform: translateY(0); /* Example final state, adjust as needed */
+    animation-delay: 15s;
+  }
+  
 
 .flex-list{
     display: flex;
