@@ -65,10 +65,10 @@ body{
     }
 }
 
-.fa-facebook:hover{
+.fa-facebook{
     color: #0866ff !important;
 }
-.fa-envelope-circle-check:hover{
+.fa-envelope-circle-check{
     background: 
       linear-gradient(to bottom left, transparent 49%,#ea4335 50%) 105% 0%  /37% 30%,
       linear-gradient(to bottom right,transparent 49%,#fbbc05 50%) 64% 100% /35% 43%,
@@ -82,7 +82,7 @@ body{
   -webkit-background-clip: text;
   background-clip: text;
 }
-.fa-instagram:hover{
+.fa-instagram{
   background: 
   linear-gradient(to bottom left, transparent 49%,#ea4335 50%) 105% 0%  /37% 30%,
   linear-gradient(to bottom right,transparent 49%,#e24118 50%) 64% 100% /35% 43%,
@@ -96,7 +96,7 @@ color: transparent;
 -webkit-background-clip: text;
 background-clip: text;
 }
-.fa-github:hover{
+.fa-github{
     background: 
       linear-gradient(to bottom left, transparent 49%,#310bdd 50%) 105% 0%  /37% 30%,
       linear-gradient(to bottom right,transparent 49%,#0c2cb9 50%) 64% 100% /35% 43%,
