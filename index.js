@@ -95,5 +95,12 @@ window.onload = function() {
   document.body.appendChild(css);
 };
 
-
-  
+document.getElementById('navbar-toggler').addEventListener('click', function() {
+  var navbar = document.getElementById('navbarSupportedContent');
+ if(navbar.style.display === '' || navbar.style.display === 'none'){
+  navbar.style.display = 'block';
+ }
+ else{
+  navbar.style.display = 'none';
+ }
+});
