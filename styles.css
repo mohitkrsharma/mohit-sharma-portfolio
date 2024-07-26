@@ -112,7 +112,8 @@ background-clip: text;
 }
 
 .social-media-container{
-    margin-top: 10%;
+    /* margin-top: 10%; */
+    margin-top: 100%;
     margin-bottom: 10%;
 }
 
@@ -127,7 +128,8 @@ background-clip: text;
 }
 
 .about-me-div{
-    margin-top: 25%;
+    /* margin-top: 25%; */
+    margin-top: 100%;
 }
 
 .about-me-div{
@@ -184,7 +186,8 @@ background-clip: text;
 }
 
 .skills-div{
-    margin-top: 10%;
+    /* margin-top: 10%; */
+    margin-top:100%;
     margin-bottom: 10%;
 }
 
