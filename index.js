@@ -104,3 +104,15 @@ document.getElementById('navbar-toggler').addEventListener('click', function() {
   navbar.style.display = 'none';
  }
 });
+
+var navLink = document.getElementsByClassName('nav-item');
+for (var i = 0; i < navLink.length; i++) {
+  (function (index) {
+    var navbar = document.getElementById('navbarSupportedContent');
+    navLink[index].addEventListener("click", function () {
+      navbar.style.display = 'none';
+
+    })
+  })(i);
+}
+
